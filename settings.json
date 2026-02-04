@@ -1,0 +1,9 @@
+{
+  "alwaysThinkingEnabled": false,
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp"]
+    }
+  }
+}

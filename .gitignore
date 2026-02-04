@@ -1,0 +1,35 @@
+# Ignore everything by default
+*
+
+# But track these configuration files
+!.gitignore
+!CLAUDE.md
+!rules/
+!rules/*.md
+!settings.json
+!settings.local.json
+!agents/
+!agents/*.md
+!skills/
+!skills/*.md
+
+# Never track sensitive/cache data
+history.jsonl
+stats-cache.json
+*.jsonl
+cache/
+debug/
+downloads/
+file-history/
+image-cache/
+paste-cache/
+plans/
+plugins/
+projects/
+session-env/
+shell-snapshots/
+statsig/
+tasks/
+telemetry/
+todos/
+.DS_Store
